@@ -1,9 +1,9 @@
 ﻿@import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
 
-body
-{
+body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     background-color: rgb(25, 25, 25);
+    color: white;
 }
 
 a, .btn-link {
@@ -35,6 +35,7 @@ app {
 h1
 {
     font-family: "consolas";
+    color: white;
 }
 h1:hover
 {
