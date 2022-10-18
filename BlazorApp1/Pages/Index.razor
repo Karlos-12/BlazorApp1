@@ -4,9 +4,9 @@
     <div class="mainc">
     </div>
     <div class="relog">
-        <input class="inputecek" title="Input ID" type="text" placeholder="Input ID">
-        <input class="inputecek" title="Input Password" type="password" placeholder="Input Password">
-        <button class="tlact" title="relogec">Re-log</button>
+        <input id="id" class="inputecek" title="Input ID" type="text" placeholder="Input ID" @bind="id">
+        <input id="pass" class="inputecek" title="Input Password" type="password" placeholder="Input Password" @bind="pass">
+        <button class="tlact" title="relogec" @onclick="Trypass" >Re-log</button>
     </div>
     <div class="table">
     </div>

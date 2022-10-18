@@ -2,20 +2,13 @@
 {
     public partial class Index
     {
-        public int count = 0;
-        public void lool()
+        public string id;
+        public string pass;
+        public void Trypass()
         {
-            count++;
+            System.Console.WriteLine("ID: " + id + "\nPass: " + pass);
         }
-    
-
-
-
-
-        public class lolmec
-        {
-
-        }
+       
     }
 }
 
