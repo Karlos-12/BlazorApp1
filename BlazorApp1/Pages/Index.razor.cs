@@ -4,7 +4,6 @@ namespace BlazorApp1.Pages
 {
     public partial class Index
     {
-        private readonly IJSRuntime js;
 
         public string id;
         public string pass;
@@ -16,7 +15,7 @@ namespace BlazorApp1.Pages
        
         public void lol()
         {
-           js.InvokeVoidAsync("PageScript");
+           
         }
     }
 }
